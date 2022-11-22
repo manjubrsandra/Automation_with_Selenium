@@ -22,6 +22,7 @@ public class Robot {
 		
 		m.mouseMove(100,900);
 		
+		
 		m.keyPress(KeyEvent.VK_CAPS_LOCK);
 		
 		m.keyPress(KeyEvent.VK_F);

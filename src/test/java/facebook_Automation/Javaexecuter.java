@@ -1,5 +1,7 @@
 package facebook_Automation;
 
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -26,5 +28,6 @@ public  WebDriver driver;
 		js.executeScript("window.scrollBy(0, -1000)");
 		driver.close();
 	}
+
 
 }

@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="facebook_Automation.Alerts">
+      <class name="facebook_Automation.ActionClass">
         <methods>
-          <include name="Alert2"/>
+          <include name="gmail_contextClickDemo_archieve"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- facebook_Automation.Alerts -->
+      </class> <!-- facebook_Automation.ActionClass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

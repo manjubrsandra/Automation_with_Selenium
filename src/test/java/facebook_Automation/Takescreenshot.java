@@ -28,7 +28,7 @@ public class Takescreenshot {
 	  
 	  TakesScreenshot pic = (TakesScreenshot)driver;
 	  File srcFile = pic.getScreenshotAs(OutputType.FILE);
-	  File destFile = new File(".\\FB_Screenshots\\"+"facebopok3.png");
+	  File destFile = new File(".\\FB_Screenshots\\"+"facebook5.png");
 	  FileHandler.copy(srcFile,destFile);
 	  driver.close();
 	  

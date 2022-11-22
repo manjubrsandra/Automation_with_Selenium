@@ -56,6 +56,19 @@ public  WebDriver driver;
 		Thread.sleep(3000);
 		driver.close();
 	}
+	@Test
+	public void usingTextFunction() throws InterruptedException {
+
+		driver.get("https://www.facebook.com/");
+		driver.manage().window().maximize();
+		driver.findElement(By.xpath("//input[contains(@id,'email')]")).sendKeys("8446151018");
+		Thread.sleep(3000);
+		driver.findElement(By.xpath("//input[contains(@name,'pass')]")).sendKeys("Prashi@123");
+		Thread.sleep(3000);
+		driver.findElement(By.xpath("//button[text()='Log In']")).click();
+		Thread.sleep(2000);
+		driver.close();
+	}
 
 	@Test
 	public void Xpath_byid() throws InterruptedException

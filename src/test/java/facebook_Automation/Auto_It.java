@@ -18,6 +18,7 @@ public  WebDriver driver;
 	   	driver = new ChromeDriver();
 	}
 	
+	@SuppressWarnings("deprecation")
 	@Test
 	public void auto_It() throws InterruptedException, IOException
 	 
